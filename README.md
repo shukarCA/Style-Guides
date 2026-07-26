@@ -55,5 +55,5 @@ The following rules will apply to all style guides:
 
 - influx_nut: Exempt (archived fork)
 - Homelab_v1: Not compliant: Markdown, JSON, Python, Shell
-- Homelab_v2: Not compliant: Markdown, TOML, YAML/Ansible, Shell
+- Homelab_v2: Compliant
 - Q-Sys Development Environment: Compliant
