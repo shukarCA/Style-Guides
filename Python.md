@@ -12,6 +12,14 @@ I don't use Python much, so much as find projects that include small amounts
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+ should be treated as authoritative for Python code.
+
+## Deviations from Global Rules
+
+Functions must be named in snake_case (e.g., return_ip_validity) instead of
+ PascalCase to strictly adhere to PEP 8 ecosystem tools.
+
 ## Reference Guide(s)
 
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)

@@ -8,6 +8,13 @@ TOML being a very fully defined syntax does not require much styling.
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [TOML Language Definition](https://toml.io/en/v1.1.0)
+ should be treated as authoritative for TOML documents.
+
+## Deviations from Global Rules
+
+None at this time.
+
 ## Reference Guide(s)
 
 [TOML Language Definition](https://toml.io/en/v1.1.0)

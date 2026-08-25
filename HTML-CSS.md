@@ -9,6 +9,16 @@ CSS files are most likely to be Q-Sys related, but may exist for other reasons.
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+ should be treated as authoritative for HTML and CSS documents, with addition of
+ the [Q-SYS CSS Properties](https://help.qsys.com/Content/Schematic_Library/uci_supported_css_properties.htm)
+ when appropriate to the project.
+
+## Deviations from Global Rules
+
+All CSS class names and HTML IDs must use kebab-case (e.g., .main-container)
+ rather than the global variable and constant naming constraints.
+
 ## Reference Guide(s)
 
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)

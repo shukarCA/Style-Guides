@@ -7,7 +7,7 @@ This repository is a compilation of style guides for all the various
 The following rules will apply to all style guides:
 
 - All documents will be written in Markdown for ease of viewing and editing
-  - They will, as a result, be compliant with the Markdown Style Guide
+  - They will, as a result, be compliant with the [Markdown Style Guide](Markdown.md)
 - All sources will be linked to permit tracability and future updates
 - To avoid duplication of effort, only note changes from the reference guides
 - Guides will be linked from this document for ease of navigation
@@ -18,12 +18,17 @@ The following rules will apply to all style guides:
 - Line lengths should be hard capped at 120 char, with a soft cap at 80 char
   - Make a best effort
 - In general, prefer that constants should be named in all caps, LIKE_THIS
-- In generak, prefer that functions should be named in a "verby" way
-  - Those verbs should suggest what the function will do, ie ReturnIPValidity,
-  or GetPageList
-- In general, variable names should suggest their usage, without restorting to
+- Functions should use action-oriented naming (verbs) appropriate to the
+ language's core style guide (e.g., PascalCase for C# ReturnIpValidity,
+  snake_case for Python return_ip_validity).
+- In general, variable names should suggest their usage, without resorting to
   specifying type
   - Prefer Is_Connected over Connection_Boolean, Timeout_Sec over Timeout
+- Where global rules (e.g., PascalCase for functions) explicitly conflict with
+ an individual language or projects primary upstream convention
+ (e.g., Python's PEP 8 snake_case), the language-specific delta file takes
+ precedence over the global guidelines, and the project guidelines override
+ the language-specific rules.
 - When possible, use comments starting with `TODO:` to indicate future work
   - TODOs should include what needs to be fixed, and what is blocking or setting
   timeline

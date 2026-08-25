@@ -9,6 +9,13 @@ It is used heavily in my Ansible workflows.
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [Jinja Documentation](https://jinja.palletsprojects.com/en/stable/templates/)
+ should be treated as authoritative for Jinja templating.
+
+## Deviations from Global Rules
+
+None at this time.
+
 ## Reference Guide(s)
 
 [Jinja Documentation](https://jinja.palletsprojects.com/en/stable/templates/)

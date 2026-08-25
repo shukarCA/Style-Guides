@@ -15,6 +15,13 @@ Three key goals seek to be balanced:
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [Google Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)
+ should be treated as authoritative for Markdown documents.
+
+## Deviations from Global Rules
+
+None at this time.
+
 ## Reference Guide(s)
 
 [Google Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)

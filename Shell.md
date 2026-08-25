@@ -10,6 +10,15 @@ When that is the case, use bash, and keep it simple,
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+ should be treated as authoritative for shell code.
+
+## Deviations from Global Rules
+
+While global rules prefer descriptive verby names like ReturnIPValidity,
+ Shell functions should favor concise, lowercase, underscore-separated utility
+ names (e.g., check_ip) to align with native POSIX CLI aesthetics.
+
 ## Reference Guide(s)
 
 [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)

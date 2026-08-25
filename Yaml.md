@@ -9,6 +9,15 @@ YAML is a cofngiruation file format, which I use primarily for Ansible,
   - [Alterations](#alterations)
   - [See also](#see-also)
 
+Except as noted in this document, the approriate style guides linked in the
+ Reference Guide(s) and See Also sections should be treated as authoritative
+ for yaml documents.
+
+## Deviations from Global Rules
+
+Contrary to general layout flexibility, all YAML documents must strictly enforce
+ a 2-space indentation (no tabs) to guarantee cross-platform parser compatibility.
+
 ## Reference Guide(s)
 
 - [Jose Angel Ansible Style Guide](https://github.com/imjoseangel/ansible-styleguide)
