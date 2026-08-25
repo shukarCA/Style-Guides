@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "johnnymorganz.stylua",
+    "davidanson.vscode-markdownlint",
+    "foxundermoon.shell-format",
+    "timonwong.shellcheck",
+    "samuelcolvin.jinjahtml",
+    "tamasfe.even-better-toml",
+    "redhat.vscode-yaml",
+    "redhat.ansible",
+    "njpwerner.autodocstring",
+    "mitchdenny.csscomb",
+    "stylelint.vscode-stylelint"
+  ]
+}

@@ -56,6 +56,18 @@ The following rules will apply to all style guides:
 - [TOML](TOML.md)
 - [YAML](Yaml.md)
 
+## 🛠️ Tooling & Automated Enforcement
+
+This repository utilizes a standardized **VS Code Workspace** configuration to
+ programmatically enforce coding styles on save.
+
+- **On-Boarding:** When opening this repository, install the recommended
+ extensions prompted by `.vscode/extensions.json`.
+- **Automation:** Local formatting rules (including the 80/120 character rulers,
+ trim on save, and linter auto-fixes) are declared in `.vscode/settings.json`.
+- **Precedence:** Local tooling profiles (`ruff.toml`, `.prettierrc`) dictate
+ the programmatic boundaries and match the expected hierarchy criteria.
+
 ## Progress in updating existing codebases
 
 - influx_nut: Exempt (archived fork)
