@@ -1,0 +1,14 @@
+---
+# .ansible-lint - Customized for local macOS development alongside Home Assistant & Docker
+
+# Instruct ansible-lint to leave non-Ansible YAML structures alone
+exclude_paths:
+  - "docker-compose.yaml"
+  - "docker-compose.yml"
+  - "compose.yaml"
+  - "compose.yml"
+  - "configuration.yaml"
+  - "automations.yaml"
+  - "scripts.yaml"
+  - "scenes.yaml"
+  - "sensors.yaml"
