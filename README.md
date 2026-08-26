@@ -63,10 +63,10 @@ This repository utilizes a standardized **VS Code Workspace** configuration to
 
 - **On-Boarding:** When opening this repository, install the recommended
  extensions prompted by `.vscode/extensions.json`.
-- **Automation:** Local formatting rules (including the 80/120 character rulers,
+- **Automation:** Local formatting rules (including 80/120 character rulers,
  trim on save, and linter auto-fixes) are declared in `.vscode/settings.json`.
 - **Precedence:** Local tooling profiles (`ruff.toml`, `.prettierrc`) dictate
- the programmatic boundaries and match the expected hierarchy criteria.
+ the programmatic boundaries and support our inheritance structure.
 
 ## Progress in updating existing codebases
 
