@@ -10,7 +10,7 @@ Brief introductory text about this language
   - [See also](#see-also)
 
 Except as noted in this document, the [Primary Reference](TEMPLATE.md)
- should be treated as authoritative for TOML documents.
+should be treated as authoritative for TOML documents.
 
 ## Deviations from Global Rules
 

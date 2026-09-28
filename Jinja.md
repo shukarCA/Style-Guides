@@ -10,7 +10,7 @@ It is used heavily in my Ansible workflows.
   - [See also](#see-also)
 
 Except as noted in this document, the [Jinja Documentation](https://jinja.palletsprojects.com/en/stable/templates/)
- should be treated as authoritative for Jinja templating.
+should be treated as authoritative for Jinja templating.
 
 ## Deviations from Global Rules
 
@@ -23,13 +23,13 @@ None at this time.
 ## VSCode Settings and Tooling
 
 For Jinja I am currently only using Better Jinja, from Samuel Colvin,
- and appropriate settings.json configuration.
+and appropriate settings.json configuration.
 
 ## Alterations
 
 Breaking from the documentation linked, files that are templated via jinja
- should be saved with .j2 as the extension, and with the intended extension of
- the destination file prior to that.
+should be saved with .j2 as the extension, and with the intended extension of
+the destination file prior to that.
 E.g. exmaple.conf.j2
 
 ## See also

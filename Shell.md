@@ -2,7 +2,7 @@
 
 Shell script is sometimes the most efficient manner to handle a given problem.
 When that is the case, use bash, and keep it simple,
- if it needs to get complicated it should stop being a shell script.
+if it needs to get complicated it should stop being a shell script.
 
 - [Shell Style Guide](#shell-style-guide)
   - [Reference Guide(s)](#reference-guides)
@@ -11,13 +11,13 @@ When that is the case, use bash, and keep it simple,
   - [See also](#see-also)
 
 Except as noted in this document, the [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
- should be treated as authoritative for shell code.
+should be treated as authoritative for shell code.
 
 ## Deviations from Global Rules
 
 While global rules prefer descriptive verby names like ReturnIPValidity,
- Shell functions should favor concise, lowercase, underscore-separated utility
- names (e.g., check_ip) to align with native POSIX CLI aesthetics.
+Shell functions should favor concise, lowercase, underscore-separated utility
+names (e.g., check_ip) to align with native POSIX CLI aesthetics.
 
 ## Reference Guide(s)
 

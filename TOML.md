@@ -9,7 +9,7 @@ TOML being a very fully defined syntax does not require much styling.
   - [See also](#see-also)
 
 Except as noted in this document, the [TOML Language Definition](https://toml.io/en/v1.1.0)
- should be treated as authoritative for TOML documents.
+should be treated as authoritative for TOML documents.
 
 ## Deviations from Global Rules
 

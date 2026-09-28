@@ -1,40 +1,33 @@
 {
-    "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
-    "Lua.runtime.version": "Lua 5.3",
-    // Core Global Rules
-    "Lua.diagnostics.disable": [
-        "undefined-global",
-        "lowercase-global",
-        "global-in-nil-env",
-        "duplicate-set-field"
-    ],
-    // One Assignment Per Statement
-    "Lua.diagnostics.severity": {
-        "unbalanced-assignment": "Warning"
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "Lua.runtime.version": "Lua 5.3",
+  "Lua.diagnostics.disable": [
+    "undefined-global",
+    "lowercase-global",
+    "global-in-nil-env",
+    "duplicate-set-field"
+  ],
+  "Lua.diagnostics.severity": {
+    "unbalanced-assignment": "Warning"
+  },
+  "Lua.doc.packageName.check": true,
+  "Lua.diagnostics.nameStyle": [
+    {
+      "name": "LocalCamelCase",
+      "scope": "local",
+      "regex": "^[a-z][a-zA-Z0-9]*$"
     },
-    // Strict Naming Rules
-    "Lua.doc.packageName.check": true,
-    "Lua.diagnostics.nameStyle": [
-        {
-            "name": "LocalCamelCase",
-            "scope": "local",
-            "regex": "^[a-z][a-zA-Z0-9]*$"
-        },
-        {
-            "name": "GlobalPascalCase",
-            "scope": "global",
-            "regex": "^[A-Z][a-zA-Z0-9]*$"
-        }
-    ],
-    // Workspace Folder & File Exclusions
-    "Lua.workspace.ignoreDir": [
-        "**/backups",
-        "**/old_versions",
-        "**/*.bak",
-        "**/Plugin-Evaluation-Script-main/*"
-    ],
-    // Global Preloading for Q-SYS Library Blueprints
-    "Lua.workspace.userThirdParty": [
-        "./.vscodetypes"
-    ]
+    {
+      "name": "GlobalPascalCase",
+      "scope": "global",
+      "regex": "^[A-Z][a-zA-Z0-9]*$"
+    }
+  ],
+  "Lua.workspace.ignoreDir": [
+    "**/backups",
+    "**/old_versions",
+    "**/*.bak",
+    "**/Plugin-Evaluation-Script-main/*"
+  ],
+  "Lua.workspace.userThirdParty": ["./.vscodetypes"]
 }

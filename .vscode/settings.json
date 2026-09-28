@@ -19,22 +19,13 @@
   "json.schemaDownload.trustedDomains": {
     "https://raw.githubusercontent.com/LuaLS/vscode-lua": true
   },
-  // Visual anchors for your 80-character soft cap and 120-character hard cap
-  "editor.rulers": [
-    80,
-    120
-  ],
-  // Auto Docstring Configuration
+  "editor.rulers": [80, 120],
   "autoDocstring.docstringFormat": "google",
-  // CSS Extension Specifics
   "csscomb.formatOnSave": true,
-  "stylelint.validate": [
-    "css"
-  ],
+  "stylelint.validate": ["css"],
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit"
   },
-  // File Associations
   "files.associations": {
     "*.qplug": "lua",
     "*.j2": "jinja",
@@ -58,23 +49,18 @@
     "scenes.yaml": "home-assistant",
     "sensors.yaml": "home-assistant"
   },
-  // Global CSS Configuration
   "css.format.spaceAroundSelectorSeparator": true,
   "css.format.newlineBetweenRules": true,
   "css.format.newlineBetweenSelectors": true,
-  // Global Lua Configuration
   "Lua.runtime.version": "Lua 5.3",
   "Lua.diagnostics.enable": true,
-  // Global Python Configuration
   "python.analysis.indexing": true,
   "python.analysis.typeCheckingMode": "basic",
-  // Global YAML Configuration
   "yaml.format.enable": true,
   "yaml.validate": true,
   "yaml.hover": true,
   "yaml.completion": true,
   "yaml.schemaStore.enable": true,
-  // Language Specific Overrides
   "[ansible]": {
     "editor.defaultFormatter": "redhat.ansible"
   },
@@ -123,23 +109,15 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  // Markdown Extension Specifics
   "markdown.extension.preview.autoShowPreviewToSide": true,
   "markdown.extension.print.absoluteImgPath": false,
   "markdown.validate.enabled": true,
-  // Red Hat Ansible Extension Settings (Enforces Style Guide Rules via Lint)
   "ansible.validation.lint.enabled": true,
   "ansible.validation.lint.path": "ansible-lint",
   "ansible.ansible.useFullyQualifiedCollectionNames": true,
-  // ShellCheck Enforcement
   "shellcheck.enable": true,
   "shellcheck.run": "onType",
-  // --- shfmt Flags Matching Google Style Guide ---
-  // -i 2: Force 2 spaces for indentation
-  // -sr: Add spaces after redirect operators (e.g., > /dev/null)
-  // -kp: Keep padding spaces inside parentheses
   "shellformat.flag": "-i 2 -sr -kp",
-  // Theme Configurations
   "workbench.preferredDarkColorTheme": "Visual Studio Dark",
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.preferredLightColorTheme": "Visual Studio Light",

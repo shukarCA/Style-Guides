@@ -1,0 +1,17 @@
+repos:
+  # General file sanitization hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0 # Use the latest stable hook release
+    hooks:
+      - id: trailing-whitespace # Trims unnecessary spaces at line ends
+      - id: end-of-file-fixer # Ensures files end with a new line character
+      - id: check-yaml # Validates structure of YAML files
+      - id: check-json # Validates structure of JSON files
+      - id: check-added-large-files # Rejects massive media assets (>500kb)
+
+  # Markdown Linting and Formatting
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0 # Matches Prettier engine release
+    hooks:
+      - id: prettier
+        types_or: [markdown, json, yaml, css, javascript]

@@ -10,14 +10,14 @@ As a result, this will mostly serve as a guide to how to implement JSON APIs.
   - [See also](#see-also)
 
 Except as noted in this document, the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml)
- should be treated as authoritative for JSON documents.
+should be treated as authoritative for JSON documents.
 
 ## Deviations from Global Rules
 
 Constants and keys will follow camelCase or snake_case as required by the
- consuming application, rather than all caps LIKE_THIS.
+consuming application, rather than all caps LIKE_THIS.
 Contrary to general layout flexibility, all JSON documents must strictly enforce
- a 2-space indentation (no tabs) to guarantee cross-platform parser compatibility.
+a 2-space indentation (no tabs) to guarantee cross-platform parser compatibility.
 
 ## Reference Guide(s)
 

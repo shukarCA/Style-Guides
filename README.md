@@ -1,8 +1,8 @@
 # Style Guides
 
 This repository is a compilation of style guides for all the various
- types of coding and documents created as part of my other repositories,
- or other outside work.
+types of coding and documents created as part of my other repositories,
+or other outside work.
 
 The following rules will apply to all style guides:
 
@@ -19,19 +19,19 @@ The following rules will apply to all style guides:
   - Make a best effort
 - In general, prefer that constants should be named in all caps, LIKE_THIS
 - Functions should use action-oriented naming (verbs) appropriate to the
- language's core style guide (e.g., PascalCase for C# ReturnIpValidity,
+  language's core style guide (e.g., PascalCase for C# ReturnIpValidity,
   snake_case for Python return_ip_validity).
 - In general, variable names should suggest their usage, without resorting to
   specifying type
   - Prefer Is_Connected over Connection_Boolean, Timeout_Sec over Timeout
 - Where global rules (e.g., PascalCase for functions) explicitly conflict with
- an individual language or projects primary upstream convention
- (e.g., Python's PEP 8 snake_case), the language-specific delta file takes
- precedence over the global guidelines, and the project guidelines override
- the language-specific rules.
+  an individual language or projects primary upstream convention
+  (e.g., Python's PEP 8 snake_case), the language-specific delta file takes
+  precedence over the global guidelines, and the project guidelines override
+  the language-specific rules.
 - When possible, use comments starting with `TODO:` to indicate future work
   - TODOs should include what needs to be fixed, and what is blocking or setting
-  timeline
+    timeline
   - Remember that a reader lacks context and provide what you can
   - Example cases would be bugs, code that isn't optimized, things that are
     working but want to be improved to be more robust or scalable
@@ -59,14 +59,14 @@ The following rules will apply to all style guides:
 ## 🛠️ Tooling & Automated Enforcement
 
 This repository utilizes a standardized **VS Code Workspace** configuration to
- programmatically enforce coding styles on save.
+programmatically enforce coding styles on save.
 
 - **On-Boarding:** When opening this repository, install the recommended
- extensions prompted by `.vscode/extensions.json`.
+  extensions prompted by `.vscode/extensions.json`.
 - **Automation:** Local formatting rules (including 80/120 character rulers,
- trim on save, and linter auto-fixes) are declared in `.vscode/settings.json`.
+  trim on save, and linter auto-fixes) are declared in `.vscode/settings.json`.
 - **Precedence:** Local tooling profiles (`ruff.toml`, `.prettierrc`) dictate
- the programmatic boundaries and support our inheritance structure.
+  the programmatic boundaries and support our inheritance structure.
 
 ## Progress in updating existing codebases
 
